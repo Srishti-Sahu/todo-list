@@ -1,0 +1,47 @@
+body {
+  font-family: sans-serif;
+}
+input {
+  width: 75vw;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  font-size: 15px;
+  font-family: cursive;
+  font-style: italic;
+}
+#addButton {
+  width: 18vw;
+  height: 30px;
+  background-color: aqua;
+  border-radius: 10px;
+  border: unset;
+  box-shadow: 1px 1px 1px grey;
+  font-size: 15px;
+  font-family: cursive;
+  font-style: italic;
+}
+.todo {
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px grey;
+  margin: 10px 10px;
+  padding: 10px 10px;
+}
+span {
+  font-family: cursive;
+  font-style: italic;
+}
+.deleteBtn {
+  float: right;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: rgb(128, 177, 152);
+}
+.deleteBtn::after {
+  content: "";
+  clear: both;
+  display: table;
+}
